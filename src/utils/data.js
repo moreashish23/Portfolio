@@ -24,12 +24,12 @@ import {FaGitAlt, FaXTwitter, FaDribbble} from "react-icons/fa6";
 import { MdGroups } from "react-icons/md";
 
 
-import PROJECT_IMG_1 from "../assets/images/project-1.png"
+
 import PROJECT_IMG_2 from "../assets/images/project-2.png"
 import PROJECT_IMG_3 from "../assets/images/project-3.png"
 import PROJECT_IMG_4 from "../assets/images/project-4.png"
 import PROJECT_IMG_5 from "../assets/images/project-5.png"
-import PROJECT_IMG_6 from "../assets/images/project-6.png"
+
 
 export const MENU_LINKS = [
     {id: "01", label: "Home", offset: -100, to: "hero"},
@@ -167,26 +167,34 @@ I'm always eager to learn, grow, and take on new challenges to build impactful w
     website:"www.ashishmore.com"
 };
 
-export const PROJECTS = [
+export const PROJECTS = [   
     {
         id: 1,
-        title: "Lays",
-        image: PROJECT_IMG_1,
-        tags: ["HTML", "CSS", "JavaScript"],
-        gitLink: "https://github.com/OpAditya1109/BugBusters-ReimagineRound1"
-      },      
-    {
-        id: 2,
         title: "Profile Management System",
         image: PROJECT_IMG_2,
         tags: ["ReactJS", "Firebase", "React-Router-Dom"],
         gitLink: "https://github.com/moreashish23/ProfileCard"
     },
     {
-        id: 3,
+        id: 2,
         title: "Mobile E-Commerce Website",
         image: PROJECT_IMG_3,
         tags: ["ReactJS", "React-Router-Dom"],
         gitLink: "https://github.com/moreashish23/Mobile-Website-Frontend"
-    }
+    },
+    {
+        id: 3,
+        title: "Tech News Posts",
+        image: PROJECT_IMG_4,
+        tags: ["ReactJS", "React-Router-Dom", "Context API & useReducer", "Tailwind CSS", "Hacker News Algolia API"],
+        gitLink: "https://github.com/moreashish23/react-api-search"
+    },
+    {
+        id: 4,
+        title: "Todo List",
+        image: PROJECT_IMG_5,
+        tags: ["ReactJS", "Tailwind CSS"],
+        gitLink: "https://github.com/moreashish23/todo-react-app"
+    },
+    
 ]

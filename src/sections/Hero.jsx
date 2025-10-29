@@ -30,10 +30,14 @@ const Hero = () => {
         <div className='w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2'>
           <img src={PROFILE_PIC} alt="profile-pic" className='profile-pic' />
 
-          <img 
-          src={ICON_1} 
-          alt="Icon 1" 
-          className='icon-img -left-10 bottom-20 rotate-[1.75deg]'/>
+          <img
+  src={ICON_1}
+  alt="Icon 1"
+  className="absolute w-8 sm:w-10 md:w-12 
+             -left-2 sm:-left-6 md:-left-8 
+             top-1/2 -translate-y-1/2 rotate-[3deg]"
+/>
+
 
           <img 
           src={ICON_2} 
